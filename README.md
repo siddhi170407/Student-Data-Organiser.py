@@ -41,8 +41,8 @@ Each student is stored in the following format:
 
 ## Member 2 Contribution (NumPy Analysis)
 
-**Name:** Your Full Name  
-**UID:** Your UID Here  
+**Name:** Samriddhi Singh  
+**UID:** 25LBCS3214 
 
 This module handles all mark analysis using NumPy arrays.
 
