@@ -13,7 +13,7 @@ class Analyzer:
         return np.mean(arr, axis=0).tolist()
 
     def find_weak_subjects(self):
-        return [self.subjects[i] for i, s in enumerate(self.scores) if s < 65]
+        return [self.subjects[i] for i, s in enumerate(self.scores) if s < 60]
 
     def find_strong_subjects(self):
         return [self.subjects[i] for i, s in enumerate(self.scores) if s >= 80]
