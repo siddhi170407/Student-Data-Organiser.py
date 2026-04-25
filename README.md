@@ -37,3 +37,35 @@ Each student is stored in the following format:
     }
   ]
 }
+```
+
+## Member 2 Contribution (NumPy Analysis)
+
+**Name:** Your Full Name  
+**UID:** Your UID Here  
+
+This module handles all mark analysis using NumPy arrays.
+
+### Files Added
+- `analysis.py` → NumPy-based performance analysis engine
+
+### Features Implemented
+- Calculate overall average of student marks
+- Calculate per-subject average across multiple tests
+- Identify weak subjects (score < 65)
+- Identify strong subjects (score >= 80)
+- Find highest and lowest scoring subject
+- Returns a complete report dictionary for Member 4 to use
+
+### Input Received From Member 4
+subjects = ["Maths", "Physics", "Chemistry"]
+scores = [82, 68, 74]
+
+### Output Returned To Member 4
+{
+  "average": 74.67:
+  "highest_subject": "Maths":
+  "lowest_subject": "Physics":
+  "weak_subjects": []:
+  "strong_subjects": ["Maths"]
+}
