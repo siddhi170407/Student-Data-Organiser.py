@@ -52,7 +52,7 @@ This module handles all mark analysis using NumPy arrays.
 ### Features Implemented
 - Calculate overall average of student marks
 - Calculate per-subject average across multiple tests
-- Identify weak subjects (score < 65)
+- Identify weak subjects (score < 60)
 - Identify strong subjects (score >= 80)
 - Find highest and lowest scoring subject
 - Returns a complete report dictionary for Member 4 to use
