@@ -72,8 +72,8 @@ scores = [82, 68, 74]
 
 ## Member 3 Contribution (Insights & Motivation)
 
-**Name:** Aabhas Srivastava
-**UID:** 25lbcs3335
+**Name:** Aabhash Srivastava
+**UID:** 25LBCS3335
 
 This module is responsible for generating performance insights and motivational support for students based on their academic scores.
 
