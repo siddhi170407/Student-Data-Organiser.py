@@ -69,3 +69,45 @@ scores = [82, 68, 74]
   "weak_subjects": []:
   "strong_subjects": ["Maths"]
 }
+
+## Member 3 Contribution (Insights & Motivation)
+
+**Name:** Aabhas Srivastava
+**UID:** 25lbcs3335
+
+This module is responsible for generating performance insights and motivational support for students based on their academic scores.
+
+### File Added
+
+* `insights.py` → Contains the `InsightEngine` class for generating suggestions and quotes
+
+### Features Implemented
+
+* Subject-wise performance feedback
+* Categorization based on score ranges:
+
+  * `< 50` → Needs serious attention
+  * `50–59` → Needs improvement
+  * `60–79` → Average
+  * `80+` → Strong subject
+* Dynamic suggestion generation for each subject
+* Random daily motivational quote generation
+
+### Key Methods
+
+* `generate_suggestions()` → Returns a list of suggestions for all subjects
+* `get_subject_feedback(subject, score)` → Provides feedback for a single subject
+* `get_daily_quote()` → Returns a random motivational quote
+
+### Example Output
+
+```text
+Maths: Strong subject! Try advanced questions to improve further.
+Physics: Needs improvement. Revise concepts and solve more problems.
+Chemistry: Average. Keep practicing and focus on weak areas.
+```
+
+### Notes
+
+* The module is designed to work with subject names and score lists provided by the data and analysis modules.
+* Score thresholds are standardized with the analysis module to ensure consistent output across the system.
