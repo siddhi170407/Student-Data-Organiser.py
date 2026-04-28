@@ -111,3 +111,55 @@ Chemistry: Average. Keep practicing and focus on weak areas.
 
 * The module is designed to work with subject names and score lists provided by the data and analysis modules.
 * Score thresholds are standardized with the analysis module to ensure consistent output across the system.
+
+
+## Member 4 Contribution (Main Controller & Visualization)
+
+**Name:** <Aanya dhar dubey>  
+**UID:** <25lbcs3317> 
+
+This module is responsible for integrating all components of the project and providing the main user interface for interaction.
+
+### Files Added
+- `main.py` → Main application controller (CLI-based system)
+- `visualizer.py` → Handles graphical representation using charts
+
+### Features Implemented
+- Menu-driven CLI interface
+- Integration of all modules:
+  - Data Management (`data_manager.py`)
+  - Analysis (`analysis.py`)
+  - Insights (`insights.py`)
+- User interaction handling (input/output)
+- Error handling for invalid inputs
+- Graph generation for data visualization
+
+### Functionalities
+- Add new student
+- View student details
+- Analyze performance using NumPy results
+- Display subject-wise suggestions
+- Show bar chart (subject vs marks)
+- Show progress chart (performance over time)
+- Display daily motivational quote
+- Update student data
+- Delete student record
+
+### Key Methods in `main.py`
+- `show_menu()` → Displays available options  
+- `add_student()` → Takes user input and stores student data  
+- `view_student()` → Displays student details  
+- `analyze_performance()` → Connects analysis and insights modules  
+- `show_graph()` → Calls visualizer for charts  
+- `daily_motivation()` → Displays motivational quote  
+- `update_student()` → Updates student information  
+- `delete_student()` → Removes student record  
+- `run()` → Main loop to run the program  
+
+### Visualization Features
+- Bar chart for subject-wise marks  
+- Line chart for performance over time  
+
+### How to Run
+```bash
+python main.py
