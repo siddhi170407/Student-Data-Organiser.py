@@ -115,8 +115,8 @@ Chemistry: Average. Keep practicing and focus on weak areas.
 
 ## Member 4 Contribution (Main Controller & Visualization)
 
-**Name:** <Aanya >  
-**UID:** <25lbcs3317> 
+**Name:** Aanya dhar dubey
+**UID:** 25lbcs3317
 
 This module is responsible for integrating all components of the project and providing the main user interface for interaction.
 
